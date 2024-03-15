@@ -1,0 +1,32 @@
+body {
+  background-color: #2c3e50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 50px;
+}
+
+.box {
+  height: 914px;
+  width: 1280px;
+  display: block;
+  border-radius: 50px;
+  box-shadow: 18px 18px 30px 0px rgb(28 45 54 / 20%);
+}
+
+p#output {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url('') center no-repeat;
+  background-size: cover;
+  height: 914px;
+  width: 1280px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  line-height: 0.80;
+  font-size: 5px;
+  text-align: justify;
+  border-radius: 20px;
+}
